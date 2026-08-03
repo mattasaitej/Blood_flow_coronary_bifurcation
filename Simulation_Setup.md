@@ -55,3 +55,12 @@ At the inlet, a uniform velocity profile was prescribed to represent physiologic
 ### Numerical Solution
 
 The governing equations were discretized using the finite volume method and solved iteratively until convergence was achieved. Convergence was assessed based on the residuals of the continuity and momentum equations, with a convergence criterion of **1 × 10⁻⁴** for all residuals. Following convergence, the solution was post-processed in **ANSYS CFD-Post** to obtain velocity contours, pressure distribution, wall shear stress, streamlines, and other hemodynamic parameters used for analysis.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/fluent.png" width="600"/><br>
+      <b>
+    </td>
+  </tr>
+</table>
