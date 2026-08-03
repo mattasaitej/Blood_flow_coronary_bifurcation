@@ -64,16 +64,31 @@ This project can be extended to investigate more advanced cardiovascular scenari
 ## Repository Structure
 
 ```
-├── Geometry/
-├── Mesh/
-├── Simulation_Setup/
-├── Results/
-│   ├── Streamlines
-│   ├── Velocity
-│   ├── Pressure
-│   └── Wall_Shear_Stress
-├── Report/
-└── README.md
+Blood_flow_coronary_bifurcation/
+│
+├── images/
+│   ├── element_quality.png
+│   ├── fluent.png
+│   ├── geometry.png
+│   ├── mesh.png
+│   ├── pressure_at_inlet.png
+│   ├── pressure_on_wall.png
+│   ├── streamlines.png
+│   ├── velocity_countor_inlet.png
+│   ├── velocity_countor_outlet.png
+│   └── wss.png
+│
+├── project_files/
+│   ├── .gitkeep
+│   ├── coronary bifurcation of artery.wbpj
+│   └── vessel_geo_1.stl
+│
+├── Computational_Approach.md
+├── Geometry_and_Mesh.md
+├── README.md
+├── Results_and_Interpretation.md
+├── Simulation_Setup.md
+└── Theoretical_Background.md
 ```
 
 ---
